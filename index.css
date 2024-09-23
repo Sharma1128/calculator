@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 200px;
+    height: 202px;
+    border: 2px solid greenyellow;
+    margin: 40px auto;
+    background: linear-gradient(to right, blue, green );
+    border-radius: 9px;
+}
+input{
+    width: 190px;
+    height: 30px;
+    border: 2px solid greenyellow;
+    margin: 5px 3.5px;
+    border-radius: 5px;
+}
+.span{
+    display: inline-block;
+    height: 38px;
+    width: 43px;
+    border: 2px solid greenyellow;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 7px;
+}
+div{
+    margin: 1px 0px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.span:hover{
+    font-size: large;
+    font-weight: bold;
+}
